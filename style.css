@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica", serif;
+  font-size: 14px;
+  font-color: black;
+  font-style: italic;
+}
+
+a {
+  display: block;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.image-container {
+  position: absolute;
+  right: 50%;
+  margin-right: -35%;
+  top: 100px;
+  width: 70%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.image-container img:not(:first-child) {
+  margin-top: 50px;
+}
+
+.img-background {
+  width: 100%;
+  height: 100%;
+  background-image: url("homepage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.winky {
+  position: absolute;
+}
+
+.miffles {
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+.squirmy {
+  position: fixed;
+  right: 2%;
+  width: 12%;
+  bottom: 40px;
+}
+
+.squirmy img {
+  width: 100%;
+}
+
+.projects {
+  margin-top: 450px;
+  font-style: ;
+}
+
+.forget-video {
+  margin: 100 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -320px;
+}
+
+span.solid-line {
+  color: #8B7B8B;
+  background-color: #8B7B8B;
+}
+
+@media all and (max-width: 580px) {
+  body {
+    width: 100%;
+    font-size: 20px;
+  }
+  figcaption {
+    font-size: 12px;
+  }
+  .forget-video {
+    margin-left: -140px;
+  }
+  iframe {
+    width: 280px;
+    height: 158px;
+  }
+  iframe.square {
+    height: 206px;
+  }
+  .miffles {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .image-container {
+    top: 30px;
+  }
+  .image-container img {
+    margin-bottom: 30px;
+  }
+  .image-container img:not(:first-child) {
+    margin-top: 0;
+  }
+  p {
+    font-size: 15px;
+    margin-top: 0px;
+  }
+}
